@@ -1,0 +1,52 @@
+.imc-titulo{
+    text-align: center;
+    color: black;
+    text-shadow: 1px 2px 2px DarkGoldenrod;
+}
+
+#calcular{
+    width: 100px;
+    color: white;
+    text-shadow: 2px 2px 2px DarkGoldenrod;
+    background-color: black;
+    margin-left: 5px;
+    margin-top: 3%;
+}
+
+#limpar{
+    width: 100px;
+    color: white;
+    text-shadow: 2px 2px 2px DarkGoldenrod;
+    background-color: black;
+    margin-left: 5px;
+    margin-top: 3%;
+}
+
+.imc{
+    background: linear-gradient(to bottom, #c69d7d, #F5DEB3, #696969);
+    align-items: center;
+    width: 100%;
+}
+
+.input{
+    margin-top: 2%;
+    margin-bottom: 3%;
+    color: black;
+}
+
+#resultado{
+    align-items: center;
+    margin-top: 3%;
+}
+
+p{
+    margin-top: 2%;
+}
+
+#tabela_imc{
+    text-align: center;
+    margin-top: 3%;
+    width: auto;
+    max-width: auto;
+    margin-bottom: 2%;
+}

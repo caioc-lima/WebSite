@@ -1,0 +1,74 @@
+.form_bg{
+    background: linear-gradient(to bottom, #c69d7d, #F5DEB3, #696969);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.form_horizontal{
+    font-family: 'lato', sans-serif;
+    text-align: center;
+}
+
+.form_horizontal .form_icon{
+    color: black;
+    text-shadow: 2px 2px 2px DarkGoldenrod;
+    font-size: 100px;
+    line-height: 85px;
+    margin: 0 0 13px;
+}
+
+.form_horizontal .tittle{
+    color: black;
+    text-shadow: 1px 2px 2px DarkGoldenrod;
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0 0 35px 0;
+}
+
+.form_horizontal .form-group{
+    margin: 0 0 10px;
+    position: relative;
+}
+
+.form_horizontal .input-icon{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 13px;
+    color: black;
+    text-shadow: 1px 2px 2px DarkGoldenrod;
+}
+
+.form_horizontal .form-control{
+    color: #555;
+    background-color: #fff;
+    font-size: 13px;
+    letter-spacing: 1px;
+    height: 37px;
+    padding: 2px 15px 2px 35px;
+}
+
+.form_horizontal .form-control::placeholder{
+    color: rgba(0, 0, 0, 0.7);
+    text-shadow: 1px 2px 2px DarkGoldenrod;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.form_horizontal .btn{
+    color: #fff;
+    background-color: black;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+    box-shadow: 1px 2px 2px DarkGoldenrod;
+    border-radius: 20px;
+    text-transform: uppercase;
+}

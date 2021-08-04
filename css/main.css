@@ -1,0 +1,321 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* -------------HEADER------------- */
+
+body{
+    background-image: linear-gradient(to right,#a38467,#c69d7d 90%,#d7ac89);
+    
+}
+
+.msg-bem-vindo{
+    margin-left: 22%;
+    padding-top: 1%;
+    color: black;
+    font-weight: bold;
+    text-shadow: 1px 2px 2px DarkGoldenrod;
+}
+
+/*MENU SUPERIOR*/
+
+.nome_site{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: 2px 2px 2px DarkGoldenrod;   
+
+}
+
+.nome_site:hover{
+    font-size: 18px;
+    font-weight: bold;
+    color: DarkGoldenrod;
+    text-shadow: 2px 2px 2px black;
+    transition: 0.6s;
+}
+
+.nav-link{
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    text-decoration: none; 
+    text-align: center;
+    text-shadow: 2px 2px 2px DarkGoldenrod;   
+}
+
+.nav-link:hover{
+    font-size: 18px;
+    font-weight: bold;
+    color: DarkGoldenrod;
+    text-shadow: 2px 2px 2px black;
+    border: 1px solid black;
+    border-radius: 2px;
+    transition: 0.6s;
+    box-shadow: 2px 2px 2px DarkGoldenrod;
+}
+
+.material-icons{
+    color: black;
+    text-shadow: 1px 2px 2px DarkGoldenrod;
+}
+
+/* --------------BODY-------------- */
+
+/* BANNERS */
+
+
+/* SOFT SKILLS */
+
+
+
+#softSkills{
+    margin-top: 6%;
+    color: black;
+    text-shadow: 2px 2px 2px DarkGoldenrod;
+    max-width: 100%;
+    min-width: 50%;
+}
+
+.skills{
+    width: 100%;
+    max-width: 500px;
+    padding: 0 10px;
+}
+
+.skill-name{
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 20px 0;
+    color: black;
+    text-shadow: 1px 2px 2px DarkGoldenrod;
+}
+
+.skill-bar{
+    height: 7px;
+    background: white;
+    border-radius: 8px;
+
+}
+
+.skill-per{
+    border: 1px solid black;
+    height: 7px;
+    background-color: DarkGoldenrod;
+    border-radius: 8px;
+    width: 0;
+    transition: 5s linear;
+    position: relative;
+}
+
+.skill-per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background-color: black;
+    color: DarkGoldenrod;
+    font-size: 12px;
+    border-radius: 4px;
+    top: -10px;
+    right: 0;
+    transform: translateX(50%);
+}
+
+.skill-per::after{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 6px;
+    top: -16;
+    right: 0px;
+    transform: translate(2px);
+    border-radius: 2px;
+}
+
+/* CURSOS */
+
+.graduacao{
+    margin-top: 0;
+    color: black;
+    text-shadow: 2px 2px 2px DarkGoldenrod;
+}
+
+.curso_facul{
+    margin-top: 2%;
+    color: black;
+    text-shadow: 1px 2px 2px DarkGoldenrod;
+    font-weight: bold;
+}
+
+.cursos{
+    margin-top: 3%;
+    color: black;
+    text-shadow: 2px 2px 2px DarkGoldenrod;
+}
+
+
+
+.lista_cursos, li{
+    list-style-type: none;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 4%;
+    color: black;
+    text-shadow: 1px 2px 2px DarkGoldenrod;
+
+}
+
+
+/* EXPERIENCIAS PROFISSIONAIS */
+
+.exp{
+    margin-top: 5%;
+    border-top: 1px solid black;
+}
+
+.titulo-exp{
+    margin-top: 4%;
+    color: black;
+    text-align: center;
+    text-shadow: 1px 1px 1px DarkGoldenrod;
+    text-shadow: bold;
+}
+
+.titulo-experiencia{
+    margin-top: 4%;
+    color: black;
+    text-align: center;
+    text-shadow: 1px 1px 1px DarkGoldenrod;
+    font-weight: bold;
+}
+
+
+#cargo{
+    margin-top: 15%;
+    font-size: 20px;
+    color: black;
+    text-shadow: 1px 1px 1px DarkGoldenrod;
+}
+#cargo1{
+    margin-top: 8%;
+    font-size: 20px;
+    color: black;
+    text-shadow: 1px 1px 1px DarkGoldenrod;
+}
+
+#periodo{
+    margin-top: 6%;
+    font-size: 15px;
+    color: black;
+    text-shadow: 1px 1px 1px DarkGoldenrod;
+}
+
+#atrib{
+    margin-top: 6%;
+    font-size: 15px;
+    color: black;
+    text-shadow: 1px 1px 1px DarkGoldenrod;
+}
+
+/* -------------CAROUSEL------------- */
+
+
+
+
+
+
+
+
+
+/* -------------FOOTER------------- */
+
+footer{
+    border-top: 1px solid black;
+    margin-top: 4%;
+}
+
+/*CANTO ESQUERDO*/
+
+.rodape-canto-esquerdo-titulo{
+    color: black;
+    text-shadow: 1px 2px 2px DarkGoldenrod;
+
+}
+
+.rodape-canto-esquerdo-texto{
+    text-shadow: bold;
+    color: black;
+    text-shadow: 1px 2px 2px DarkGoldenrod;
+    font-size: 18px;
+}
+
+/*MEIO*/
+
+.rodape-central-titulo{
+    color: black;
+    text-shadow: 1px 2px 2px DarkGoldenrod;
+}
+
+.face-rodape{
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    text-decoration: none; 
+    text-align: center;
+    text-shadow: 2px 2px 2px DarkGoldenrod;   
+}
+
+.face-rodape:hover{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: DarkGoldenrod;
+    text-shadow: 2px 2px 2px black;
+    transition: 0.6s;
+}
+
+.lk-rodape{
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    text-decoration: none; 
+    text-align: center;
+    text-shadow: 2px 2px 2px DarkGoldenrod;   
+}
+
+.lk-rodape:hover{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: DarkGoldenrod;
+    text-shadow: 2px 2px 2px black;
+    transition: 0.6s;
+}
+
+
+
+/*CANTO DIREITO*/
+
+.canto-direito-titulo{
+    color: black;
+    text-shadow: 1px 2px 2px DarkGoldenrod;
+}
+
+.rodape-texto-direito{
+    color: black;
+    text-shadow: 1px 2px 2px DarkGoldenrod;
+    font-weight: bold;
+}
+
+/* COPYRIGHT */
+
+.copyright{
+    margin-top: 2%;
+    text-align: center;
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+}
